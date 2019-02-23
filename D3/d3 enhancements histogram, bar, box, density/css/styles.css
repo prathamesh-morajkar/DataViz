@@ -1,0 +1,55 @@
+body {
+    font: 14px Calibri;
+    text-rendering: optimizeLegibility;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.rect {
+  fill: steelblue;
+  stroke: steelblue;
+}
+
+.path {
+  stroke: coral;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+
+.bar text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
+
+
+a:link {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+a:hover {
+    color: #F96B07;
+}
+
+a:active {
+    color: #F96B07;
+}
+
+td {
+    padding-left: 10px; 
+    padding-right: 10px
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #295780;
+}

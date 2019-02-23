@@ -1,0 +1,78 @@
+body {
+    font-size: 14px;
+    font-family: Calibri;
+    text-rendering: optimizeLegibility;
+    color: dimgray;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #295780;
+}
+
+.graphTitle {
+  font-size: 14px;
+  font-weight: 600;
+  fill: #295780;
+}
+
+.footnote {
+  font-size: 10px;
+  fill: darkgray;
+  font-style: italic;
+}
+
+.axis path {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.pathtext {
+   font-family: sans-serif;
+   font-size: 10px;
+}
+
+.path {
+  stroke: darkred;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  stroke-linecap: round; 
+}
+
+.path2 {
+  stroke: firebrick;
+  fill: none;
+  stroke-width: 1;
+  stroke-dasharray: 5;
+  stroke-opacity: .6;
+} /* https://www.w3.org/TR/SVG/painting.html#StrokeProperties */
+
+.path3 {
+  stroke: teal;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  stroke-linecap: round; 
+}
+
+.path4 {
+  stroke: lightseagreen;
+  fill: none;
+  stroke-width: 1;
+  stroke-dasharray: 5;
+  stroke-opacity: .6;
+} /* https://www.w3.org/TR/SVG/painting.html#StrokeProperties */

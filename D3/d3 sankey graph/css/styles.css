@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    font-family: Calibri;
+    text-rendering: optimizeLegibility;
+    color: dimgray;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #295780;
+}
+
+.graphTitle {
+  font-size: 14px;
+  font-weight: 600;
+  fill: #295780;
+}
+
+.footnote {
+  font-size: 10px;
+  fill: darkgray;
+  font-style: italic;
+}
+
+.node {
+  stroke-width: .5px;
+  stroke: white;
+}
+
+.centralNode {
+  stroke-width: .5px;
+  stroke: black;
+}
+
+.nodeText {
+  fill: darkslategray;
+  pointer-events: none; 
+  font-size: 10px;
+  font-weight: 100;
+}
+ 
+.centralNodeText {
+  fill: darkslategray;
+  pointer-events: none; 
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.link {
+  fill: none;
+  stroke-width: 1px;
+  stroke: darkgray;
+}

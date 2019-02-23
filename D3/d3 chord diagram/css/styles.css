@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    font-family: Calibri;
+    text-rendering: optimizeLegibility;
+    color: dimgray;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #295780;
+}
+
+.graphTitle {
+  font-size: 14px;
+  font-weight: 600;
+  fill: #295780;
+}
+
+.footnote {
+  font-size: 10px;
+  fill: darkgray;
+  font-style: italic;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+    
+.nodeText {
+  fill: darkslategray;
+  pointer-events: none; 
+  font-size: 10px;
+}
+
+.groupLabels {
+  font-size: 14px;
+  font-weight: 600;
+  fill: steelblue;
+}
+
+.link {
+  fill: none;
+//  stroke: #bbb;
+}
+
+.group-tick line {
+  stroke: #000;
+}
+
+.ribbons {
+  fill-opacity: 0.67;
+}

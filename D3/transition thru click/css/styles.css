@@ -1,0 +1,32 @@
+body {
+    font: 14px Calibri;
+    text-rendering: optimizeLegibility;
+}
+
+a:link {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+a:hover {
+    color: #F96B07;
+}
+
+a:active {
+    color: #F96B07;
+}
+
+td {
+    padding-left: 10px; 
+    padding-right: 10px
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #295780;
+}
